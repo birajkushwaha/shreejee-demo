@@ -12,6 +12,16 @@
     margin-bottom: 4rem;
 }
 
+@media (max-width: 768px) {
+    .footer-grid {
+        gap: 2.5rem;
+    }
+
+    .footer {
+        padding: 3rem 0 2rem;
+    }
+}
+
 .footer-logo {
     color: var(--color-gold);
     margin-bottom: 1.5rem;
