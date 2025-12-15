@@ -43,8 +43,9 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-bottom">
-                    <p>&copy; 2025 Shreejee Restaurant. All rights reserved.</p>
-                    <p className="credit">Designed by Antigravity</p>
+                    <p>&copy; {new Date().getFullYear()} Shreejee Restaurant. All rights reserved.</p>
+                    <p className="credit">Developed by Biraj</p>
+                    <p className="demo-text">This is for demo purpose only</p>
                 </div>
             </div>
         </footer>
